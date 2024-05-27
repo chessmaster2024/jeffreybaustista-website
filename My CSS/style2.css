@@ -1,0 +1,103 @@
+@keyframes colorchange {
+    0% { color: black; }
+    25% { color: white; }
+    50% { color: black; }
+    75% { color: white}
+    100% { color:black; }
+}
+h3{
+color:black;
+text-align: center;
+font-family: monospace;
+font-size: 20px;
+}
+.navbar ul{
+animation: colorchange 5s infinite;
+list-style-type: none;
+background-color:lightgreen;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+}
+.navbar a{
+color: white;
+text-decoration: none;
+display: block;
+padding: 20px;
+border-bottom: 2px solid transparent
+}
+.navbar a:hover{
+background-color:pink;
+color: white;
+}
+.navbar li{
+animation: colorchange 5s infinite;
+float: left;
+font-family: monospace;
+font-size: 15px;
+} 
+button{
+animation: colorchange 5s infinite;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+   }
+}
+.animated-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    animation: slidein 5s infinite;
+}
+.button03 {
+display: inline-block;
+padding: 10px 20px;
+margin: 10px;
+background-color:violet;
+color: white;
+text-align: center;
+text-decoration: none;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+height: 250px;
+width: 500px;
+}
+.container{
+       height:5px;
+        width: 50%;
+        margin: 0 auto;
+        padding: 25px;
+        background:lightgreen;
+        border: 1px solid #ccc;
+    }
+body{
+background-color: skyblue;
+}
+h2{
+font-family: monospace;
+}
+p{
+font-family: monospace;
+color:black;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  h3, .navbar, .button03 {
+    text-align: center;
+  }
+  .container {
+    margin: 0 auto; 
+  }

@@ -1,0 +1,99 @@
+@keyframes colorchange {
+    0% { color: red }
+    25% { color: voilet; }
+    50% { color: blue; }
+    75% { color: pink; }
+    100% { color:black; }
+}
+h3{
+color:black;
+text-align: center;
+font-family: monospace;
+font-size: 20px;
+}
+.navbar ul{
+list-style-type: none;
+background-color: skyblue;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+}
+.navbar a{
+color: white;
+text-decoration: none;
+display: block;
+padding: 20px;
+border-bottom: 2px solid transparent
+}
+.navbar a:hover{
+background-color:violet;
+color: white;
+}
+.navbar li{
+float: left;
+font-family: monospace;
+font-size: 15px;
+} 
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+   }
+}
+.animated-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    animation: slidein 5s infinite;
+}
+.button03 {
+display: inline-block;
+padding: 10px 20px;
+margin: 10px;
+background-color:pink;
+color: white;
+text-align: center;
+text-decoration: none;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+height: 250px;
+width: 500px;
+}
+.container{
+       height:5px;
+        width: 50%;
+        margin: 0 auto;
+        padding: 25px;
+        background:skyblue;
+        border: 1px solid #ccc;
+    }
+
+body{
+background-color: lightgreen;
+}
+h2{
+font-family: monospace;
+}
+p{
+font-family: monospace;
+animation: colorchange 5s infinite;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  h3, .navbar, .button03 {
+    text-align: center;
+  }
+  .container {
+    margin: 0 auto; 
+  }
